@@ -1,0 +1,301 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*border: 2px solid darkred;*/
+}
+#anasayfa{
+	width: 1000px;
+	height: 1417px;
+	margin: 0 auto;
+	background-color: #343537;
+	overflow: hidden;
+
+}
+header>#logo{
+	float: left;
+}
+header>#logo>h1{
+	font-size:32px;
+	font-family: Georgia;
+	color: white;
+	padding-top: 37px;
+	padding-left: 20px;
+	
+}
+header>#logo>p{
+	font-size: 12px;
+	font-family: Georgia;
+	color: #858585;
+	padding-top: 12px;
+	padding-left: 20px;
+}
+header>#sag>p{
+	font-size: 13px;
+	color: #676767;
+	padding-top: 37px;
+	padding-right: 20px;
+	float: right;
+}
+#icerikler{
+	width: 960px;
+	height: 1230px;
+	background-color: white;
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius:20px;
+}
+nav{
+	width: 960px;
+	height: 60px;
+	background-color: black;
+	border-top-left-radius: 20px;
+	border-top-right-radius:20px;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-evenly;
+}
+nav>a{
+	text-decoration: none;
+	font-size: 13px;
+	color: white;
+	padding-top: 20px;
+}
+nav>a:hover{
+	color: #3b7a9d;
+}
+#slayder{
+	width: 920px;
+	height: 336px;
+	margin-top: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: flex;
+	position: relative;
+	overflow: hidden;
+}
+#slayder>img{
+	width: 920px;
+	height: 336px;
+	border: 5px solid #e5e5e5;
+}
+article{
+	margin-left: 20px;
+	margin-right: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.kutu{
+	width: 280px;
+	height: 420px;
+	
+	margin-top: 25px;
+	float: left;
+	overflow: hidden;
+}
+.kutu>h1{
+	color: #666666;
+	font-size: 22px;
+	font-family: Georgia;
+}
+.kutu>hr{
+	
+	margin-top:12px;
+}
+.kutu>img{
+	width: 270px;
+	height: 140px;
+	border: 3px solid gray;
+	margin-top: 15px;
+	margin-left: 2px;
+	margin-right:2px;
+}
+.kutu>p{
+	padding-top: 20px;
+	font-size: 13pd;
+	color: #999999;
+}
+.kutu>button{
+	width: 95px;
+	height: 35px;
+	background-color: #3b7a9d;
+	color: white;
+	border-radius: 5px;
+	margin-top: 20px;
+	float: right;
+}
+.kutu>h1{
+	color: #666666;
+	font-size: 22px;
+	font-family: Georgia;
+}
+.kutu2{
+	width: 280px;
+	height: 420px;
+	
+	margin-top: 25px;
+	float: left;
+	overflow: hidden;
+}
+.kutu2>#k1{
+	width: 280px;
+	height: 210px;
+	overflow: hidden;
+}
+.kutu2>#k1>hr{
+	
+	margin-top:12px;
+}
+.kutu2>#k1>img{
+	width: 60px;
+	float: left;
+	
+}
+.kutu2>#k1>p{
+	font-size: 16pt;
+	color: #989898;
+	margin-top: 18px;
+	
+}
+.g{
+	clear: both;
+}
+.kutu2>#k1>h3{
+	font-size: 13px;
+	font-family: Georgia;
+	color: #878787;
+	margin-top: 10px;
+}
+.kutu2>#k1>button{
+	width: 95px;
+	height: 35px;
+	background-color: #3b7a9d;
+	color: white;
+	border-radius: 5px;
+	margin-top: 20px;
+	float: right;
+}
+
+
+.kutu2>#k2>img{
+	width: 50px;
+	float: left;
+	margin-top: 25px;
+	
+}
+.kutu2>#k2>p{
+	font-size: 16px;
+	color: #989898;
+	margin-top: 40px;
+
+	
+}
+.kutu2>#k2{
+	width: 280px;
+	height: 210px;
+	overflow: hidden;
+}
+.kutu2>#k2>h3{
+	font-size: 13px;
+	font-family: Georgia;
+	color: #878787;
+	margin-top: 10px;
+
+}
+.kutu2>#k2>button{
+	width: 95px;
+	height: 35px;
+	background-color: #3b7a9d;
+	color: white;
+	border-radius: 5px;
+	margin-top: 15px;
+	float: right;
+}
+#footerkutu{
+	width: 960px;
+	height: 290px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+#footerkutu>.kutu{
+	width: 200px;
+	height: 260px;
+/*	background-color: deeppink;*/
+margin-left: 20px;
+	margin-right: 20px;
+}
+#footerkutu>.kutu>h1{
+	font-size: 16pt;
+	color: black;
+	margin-bottom: 30px;
+
+}
+
+#footerkutu>.kutu>h3{
+	font-size: 12pt;
+	color: #666666;
+}
+#footerkutu>.kutu>a{
+	font-size: 12pt;
+	color: #3b7a9d;
+	text-decoration: none;
+}
+#footerkutu>.kutu>#bilgi{
+	font-size: 12px;
+	color: #3b7a9d;
+}
+#footerkutu>.kutu>#p2{
+	margin-bottom: 5px;
+	margin-top: -5px;
+	font-size: 13px;
+
+
+}
+#footerkutu>.kutu>.button{
+	font-size: 13pt;
+	color:white;
+	background-color: #3b7a9d;
+	padding: 5px;
+	border-radius: 5px;
+
+}
+.login{
+	width: 190px;
+	height: 40px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	
+}
+
+
+
+
+
+
+
+
+
+footer{
+	width: 960px;
+	height: 60px;
+	background-color:#dbdbdb;
+}
+footer>#sol>p{
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+	font-size: 12px;
+	color: #999999;
+}
+footer>#sag>p{
+	margin-top: 20px;
+	margin-right: 20px;
+	float: right;
+	font-size: 12px;
+	color: #999999;
+}
+
+
